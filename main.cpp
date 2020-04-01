@@ -86,25 +86,7 @@ void variableDeclarations()
     
     ignoreUnused(number); //passing each variable declared to the ignoreUnused() function
 
-    ignoreUnused(isWritable);
-    ignoreUnused(playSound);
-    ignoreUnused(performOperation);
-
-    ignoreUnused(separator);
-    ignoreUnused(gonGiveItToYa);
-    ignoreUnused(special);
-
-    ignoreUnused(failedAttempts);
-    ignoreUnused(unitsSold);
-    ignoreUnused(numSamples);
-
-    ignoreUnused(basePrice);
-    ignoreUnused(percentCorrect);
-    ignoreUnused(piRounded);
-
-    ignoreUnused(averagePerHour);
-    ignoreUnused(startingValue);
-    ignoreUnused(amplitudeModifier);
+    ignoreUnused(isWritable, playSound, performOperation, separator, gonGiveItToYa, special, failedAttempts, unitsSold, numSamples, basePrice, percentCorrect, piRounded, averagePerHour, startingValue, amplitudeModifier);
 }
 /*
  10 functions
@@ -131,7 +113,7 @@ bool canAfford(float moneyAvailable, float moneyNeeded = 29.99f)
  int catsToFeed(int catsInAlley, int catsFostered = 6, int catsOwned = 4)
  {
      ignoreUnused(catsInAlley, catsFostered, catsOwned);
-     return{};
+     return {};
  }
 
 /*
@@ -157,7 +139,7 @@ bool canAfford(float moneyAvailable, float moneyNeeded = 29.99f)
  bool yes(bool no = false)
  {
      ignoreUnused(no);
-     return{};
+     return {};
  }
 
 /*
@@ -231,14 +213,9 @@ int main()
     auto isLaughing = laughAtJoke(12.5, false);
     
     ignoreUnused(carRented);
-    ignoreUnused(affordable);
-    ignoreUnused(numCats);
-    ignoreUnused(meltyFaces);
-    ignoreUnused(maybe);
-    ignoreUnused(bodyOdor);
-    ignoreUnused(whichFactor);
-    ignoreUnused(sheepCounted);
-    ignoreUnused(isLaughing);
+
+    ignoreUnused(affordable, numCats, meltyFaces, maybe, bodyOdor, whichFactor, sheepCounted, isLaughing);
+
     std::cout << "good to go!" << std::endl;
     return 0;    
 }
