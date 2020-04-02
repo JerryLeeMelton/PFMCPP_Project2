@@ -110,63 +110,63 @@ bool canAfford(float moneyAvailable, float moneyNeeded = 29.99f)
 /*
  2)
  */
- int catsToFeed(int catsInAlley, int catsFostered = 6, int catsOwned = 4)
- {
-     ignoreUnused(catsInAlley, catsFostered, catsOwned);
-     return {};
- }
+int catsToFeed(int catsInAlley, int catsFostered = 6, int catsOwned = 4)
+{
+    ignoreUnused(catsInAlley, catsFostered, catsOwned);
+    return {};
+}
 
 /*
  3)
  */
- int facesMelted(bool shreded, int peopleInAudience, int notesPlayed, int highKicksPerformed)
- {
-     ignoreUnused(shreded, peopleInAudience, notesPlayed, highKicksPerformed);
-     return {};
- }
+int facesMelted(bool shreded, int peopleInAudience, int notesPlayed, int highKicksPerformed)
+{
+    ignoreUnused(shreded, peopleInAudience, notesPlayed, highKicksPerformed);
+    return {};
+}
 
 /*
  4)
  */
- void bangHead(bool musicPlaying = true, float rockinFactor = 0.999456f)
- {
-     ignoreUnused(musicPlaying, rockinFactor);
- }
+void bangHead(bool musicPlaying = true, float rockinFactor = 0.999456f)
+{
+    ignoreUnused(musicPlaying, rockinFactor);
+}
 
 /*
  5)
  */
- bool yes(bool no = false)
- {
-     ignoreUnused(no);
-     return {};
- }
+bool yes(bool no = false)
+{
+    ignoreUnused(no);
+    return {};
+}
 
 /*
  6)
  */
- double getBodyOdor(float temperature, double funkFactor, int daysSinceShower)
- {
-     ignoreUnused(temperature, funkFactor, daysSinceShower);
-     return {};
- }
+double getBodyOdor(float temperature, double funkFactor, int daysSinceShower)
+{
+    ignoreUnused(temperature, funkFactor, daysSinceShower);
+    return {};
+}
 
 /*
  7)
  */
- void sweetChildOMine(char o = 'o', int oh = 0)
- {
-     ignoreUnused(o, oh);
- }
+void sweetChildOMine(char o = 'o', int oh = 0)
+{
+    ignoreUnused(o, oh);
+}
 
 /*
  8)
  */
- float xFactor(char x = 'X')
- {
-     ignoreUnused(x);
-     return {};
- }
+float xFactor(char x = 'X')
+{
+    ignoreUnused(x);
+    return {};
+}
 
 /*
  9)
